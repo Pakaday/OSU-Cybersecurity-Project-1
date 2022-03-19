@@ -48,11 +48,13 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jumpbox-Provisioner can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 5601 Kibana Port
+- 74.140.4.189
 
 Machines within the network can only be accessed by Jumpbox-Provisioner.
+
 -Which machine did you allow to access your ELK VM? 
- -My machine with an IP address of 74.140.4.189.
+
+-The Jumpbox-Provisioner with an IP of 40.117.63.114.
 
 A summary of the access policies in place can be found in the table below.
 
