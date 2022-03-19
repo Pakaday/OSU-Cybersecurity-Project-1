@@ -33,8 +33,10 @@ Load balancing ensures that the application will be highly available, in additio
   - An advantage of a jump box is that it is a secure computer that admins must connect to first before running administrative tasks or before connecting to other servers or unsecured environments.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system applications.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+- What does Filebeat watch for?
+  - Filebeat is used to monitor log files/locations you specify, collects log events and forwards them to Elasticsearch or Logstash for indexing.
+- What does Metricbeat record?
+  - Metricbeat is used to record metrics and statistics and forward what it collects to the output you specify.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
