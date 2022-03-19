@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![image](https://user-images.githubusercontent.com/92763707/159131315-f757d45b-a181-4dde-b160-9c5568e08420.png)
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/2ef7ea779dd5b4fc6fab245f4d8555ac9eb18aa9/Images/FPN_Prj1.drawio.png)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
@@ -75,7 +75,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-!![image](https://user-images.githubusercontent.com/92763707/159131562-ecf9d5e0-a9a1-4e4f-841b-73c4dfac4a67.png)
+!![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/2ef7ea779dd5b4fc6fab245f4d8555ac9eb18aa9/Images/Elk761%20(2).png)
 
 
 
