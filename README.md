@@ -27,7 +27,10 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting inbound access to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+- What aspect of security do load balancers protect?
+- Load balancers increase availability by distributing traffic across multiple servers, thus helping to prevent DDoS (Distributed Denial of Service) attacks.
+-   What is the advantage of a jump box?
+-   An advantage of a jump box is that it is a secure computer that admins must connect to first before running administrative tasks or before connecting to other servers or unsecured environments.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system applications.
 - _TODO: What does Filebeat watch for?_
@@ -72,9 +75,12 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - The main advantage would be to automate and streamline multiple processes into one Ansible playbook rather than inputting the configurations manually into each configuration file.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
+- Install docker.io
+- Install pip3
+- Install Docker python module
+- Increased the available virtual memory
+- Download and launch a docker container running an Elk instance
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -91,7 +97,7 @@ This ELK server is configured to monitor the following machines:
 | Web-2 | 10.0.0.6     |
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- We have installed Filebeats and Metricbeats on these machines.
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
