@@ -54,7 +54,7 @@ Machines within the network can only be accessed by Jumpbox-Provisioner.
 
 -Which machine did you allow to access your ELK VM? 
 
--The Jumpbox-Provisioner with an IP of 40.117.63.114.
+-The Jumpbox-Provisioner with an IP of 10.0.0.4.
 
 A summary of the access policies in place can be found in the table below.
 
@@ -68,7 +68,8 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+- What is the main advantage of automating configuration with Ansible?
+- The main advantage would be to automate and streamline multiple processes into one Ansible playbook rather than inputting the configurations manually into each configuration file.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
