@@ -2,16 +2,16 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/bc6bb03fd1234704f80855fbf56a94c61b33e7dd/Images/FPN_Proj1.drawio.png)
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Diagrams/FPN_Proj1.drawio.png)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
-[filebeat-playbook.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Playbooks/filebeat-playbook.yml)
+[filebeat-playbook.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/filebeat-playbook.yml)
 
-[install-elk.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Playbooks/install-elk.yml)
+[install-elk.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/install-elk.yml)
 
-[metricbeat-playbook.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Playbooks/metricbeat-playbook.yml)
+[metricbeat-playbook.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -86,7 +86,7 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-!![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/2ef7ea779dd5b4fc6fab245f4d8555ac9eb18aa9/Images/Elk761%20(2).png)
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/2ef7ea779dd5b4fc6fab245f4d8555ac9eb18aa9/Images/Elk761%20(2).png)
 
 
 
