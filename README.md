@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/2ef7ea779dd5b4fc6fab245f4d8555ac9eb18aa9/Images/FPN_Prj1.drawio.png)
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/83424878a7c4000e7b44ac8bdf3859f12f55abae/Images/FPN_Prj1.drawio.png)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
