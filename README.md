@@ -124,8 +124,8 @@ SSH into the control node and follow the steps below:
   - This is an example of what we are looking for:
 
 [webservers]
-10.0.0.5 ansible_python_interpreter=/usr/bin/python3
-10.0.0.6 ansible_python_interpreter=/usr/bin/python3
+<p>10.0.0.5 ansible_python_interpreter=/usr/bin/python3<br>
+10.0.0.6 ansible_python_interpreter=/usr/bin/python3<p>
 
 
 [elk]
