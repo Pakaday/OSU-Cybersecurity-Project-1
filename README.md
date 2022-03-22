@@ -122,6 +122,7 @@ SSH into the control node and follow the steps below:
   - Use your virtual machine private IP addresses and add the python interpreter.
 - Edit and update [hosts](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/hosts.txt) file with IP addresses of your specified virtual machines, with webservers as one group and the elk server as its' own group.
   - This is an example of what we are looking for:
+
 [webservers]
 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
@@ -129,6 +130,7 @@ SSH into the control node and follow the steps below:
 
 [elk]
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
+
 - Run the playbook, and navigate to the public IP address of your Elk server virtual machine "YOUR_IP:5601/app/kibana" to check that the installation worked as expected, which is 20.110.189.53:5601/app/kibana for my Elk server.
   - To run the playbook, use the following command:
   - ansible-playbook filebeat-playbook.yml (This will run and install the filebeat-playbook we created)
