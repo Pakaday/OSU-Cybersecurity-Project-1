@@ -39,7 +39,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
   - Metricbeat is used to record metrics and statistics and forward what it collects to the output you specify.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 |         Name        | Function   |                IP Address               | Operating System |
 |---------------------|------------|-----------------------------------------|------------------|
@@ -72,12 +72,10 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- What is the main advantage of automating configuration with Ansible?
-- The main advantage would be to automate and streamline multiple processes into one Ansible playbook rather than inputting the configurations manually into each configuration file.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually.
+- The main advantage to this method is the ability to automate and streamline multiple processes into one Ansible playbook rather than inputting the configurations manually into each configuration file.
 
-The playbook implements the following tasks:
-In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
+The playbook implements the following tasks which are automated for quicker deployment, with the capability to deploy numerous versions with changes to the configurations:
 - Install docker.io
 - Install pip3
 - Install Docker python module
@@ -99,11 +97,9 @@ This ELK server is configured to monitor the following machines:
 | Web-2  | 10.0.0.6     |
 | Elk-VM | 10.1.0.4     |
 
-We have installed the following Beats on these machines:
-- We have installed Filebeats and Metricbeats on these machines.
+We have installed Filebeats and Metricbeats on these machines.
 
-These Beats allow us to collect the following information from each machine:
-- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
+These Beats allow us to collect the following information from each machine for detailed looks into what activity is taking place.
   - Filebeat is used to collect log files from specific locations on remote machines.
    - These can be logs from Apache webserver and show SSH login attempts and sudo use in the system.
   - Metricbeat is used to collect metrics and system usage data on remote machines.
