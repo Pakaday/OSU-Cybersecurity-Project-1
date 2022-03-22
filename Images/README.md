@@ -3,7 +3,7 @@ A series of screenshots with descriptions on installing and verifying that insta
 - Curl command to download the [filebeat-config](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/filebeat-config.yml.txt)
 ![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/FileBeat_Download.png)
 
-- Use mkdir files and mkdir roles inside of /etc/ansible/, then ls to verify folders are create
+- Use mkdir files and mkdir roles inside of /etc/ansible/, then ls to verify folders are created.
 ![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/Ansible_Folders.png)
 
 - After creating the previous two folders, move [filebeat-config](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/filebeat-config.yml.txt) and [metricbeat-config](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/metricbeat-config.txt) into the files folder. Then, move [filebeat-playbook](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/filebeat-playbook.yml) and [metricbeat-playbook](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/metricbeat-playbook.yml) into the roles folder.
