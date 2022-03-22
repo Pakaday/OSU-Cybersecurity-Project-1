@@ -7,6 +7,7 @@ A series of screenshots with descriptions on installing and verifying that insta
 ![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/Ansible_Folders.png)
 
 - After creating the previous two folders, move [filebeat-config](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/filebeat-config.yml.txt) and [metricbeat-config](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/metricbeat-config.txt) into the files folder. Then, move [filebeat-playbook](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/filebeat-playbook.yml) and [metricbeat-playbook](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/metricbeat-playbook.yml) into the roles folder.
+
 ![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/Ansible_Folders_Confirm.png)
 
 - Modify the IP addresses in the [filebeat-config](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/filebeat-config.yml.txt) to the IP of Elk server virtual machine for the Elasticsearch output and Kibana setup.
