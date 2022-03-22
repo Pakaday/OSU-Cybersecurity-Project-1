@@ -135,6 +135,8 @@ nano metricbeat-playbook.yml
 - Edit and update [hosts](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/hosts.txt) file with IP addresses of your specified virtual machines, with webservers as one group and the elk server as its' own group.
   - This is an example of what we are looking for:
 ```
+cd /etc/ansible/
+nano hosts
 [webservers]
 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
