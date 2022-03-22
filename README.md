@@ -113,11 +113,23 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- In the Ansible container, use the following command: cd /etc/ansible/
-- In the /etc/ansible/ directory, use the following command: mkdir files roles
+- In the Ansible container, use the following command:
+```
+cd /etc/ansible/
+```
+- In the /etc/ansible/ directory, use the following command:
+```
+mkdir files roles
+```
   - This command will create the files and the roles directory.
 - Copy the [filebeat-playbook.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/filebeat-playbook.yml) file to /etc/ansible/roles/roles. Using a text editor, paste the copied playbook into a new file named filebeat-playbook.yml. (nano filebeat-playbook.yml)
+```
+nano filebeat-playbook.yml
+```
 - Copy the [metricbeat-playbook.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/metricbeat-playbook.yml) file to /etc/ansible/roles/roles. Using a text editor, paste the copied playbook into a new file named metricplaybook-yml. (nano metricbeat-playbook.yml)
+```
+nano metricbeat-playbook.yml
+```
 - Update the [hosts](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/hosts.txt) file to include elk and webservers.
   - Use your virtual machine private IP addresses and add the python interpreter.
 - Edit and update [hosts](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/hosts.txt) file with IP addresses of your specified virtual machines, with webservers as one group and the elk server as its' own group.
@@ -134,6 +146,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to the public IP address of your Elk server virtual machine "YOUR_IP:5601/app/kibana" to check that the installation worked as expected, which is 20.110.189.53:5601/app/kibana for my Elk server.
   - To run the playbook, use the following command while in the /etc/ansible/roles directory:
 ```
-  - ansible-playbook filebeat-playbook.yml (This will run and install the filebeat-playbook we created)
-  - ansible-playbook metricbeat-playbook.yml (This will run and install the metricbeat-playbook we created)
+cd /etc/ansible/roles
+ansible-playbook filebeat-playbook.yml (This will run and install the filebeat-playbook we created)
+ansible-playbook metricbeat-playbook.yml (This will run and install the metricbeat-playbook we created)
 ```
