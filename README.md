@@ -117,6 +117,6 @@ SSH into the control node and follow the steps below:
 - Copy the [metricbeat-playbook.yml](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/metricbeat-playbook.yml) file to /etc/ansible/roles/files.
 - Update the [hosts](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/hosts.txt) file to include elk and webservers.
 - Edit and update [hosts](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Linux/hosts.txt) file with IP addresses of your specified virtual machines, with webservers as one group and the elk server as its' own group.
-- Run the playbook, and navigate to the public IP address of your Elk server virtual machine "YOUR_IP/app/kibana" to check that the installation worked as expected, which is 20.110.189.53/app/kibana for my Elk server.
+- Run the playbook, and navigate to the public IP address of your Elk server virtual machine "YOUR_IP:5601/app/kibana" to check that the installation worked as expected, which is 20.110.189.53:5601/app/kibana for my Elk server.
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
