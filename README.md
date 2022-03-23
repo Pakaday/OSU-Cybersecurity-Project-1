@@ -145,6 +145,7 @@ nano hosts
   - To run the playbook, use the following command while in the /etc/ansible/roles directory:
 ```
 cd /etc/ansible/roles
-ansible-playbook filebeat-playbook.yml (This will run and install the filebeat-playbook we created)
-ansible-playbook metricbeat-playbook.yml (This will run and install the metricbeat-playbook we created)
+ansible-playbook filebeat-playbook.yml
+ansible-playbook metricbeat-playbook.yml
 ```
+- These commands will run the [filebeat-playbook](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/filebeat-playbook.yml) and [metricbeat-playbook](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Ansible/metricbeat-playbook.yml), respectfully.
