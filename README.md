@@ -103,7 +103,24 @@ These Beats allow us to collect the following information from each machine for 
   - Filebeat is used to collect log files from specific locations on remote machines.
    - These can be logs from Apache webserver and show SSH login attempts and sudo use in the system.
   - Metricbeat is used to collect metrics and system usage data on remote machines.
-   - These can be CPU and memory usage.  
+   - These can be CPU and memory usage.
+
+### Successful installation of Filebeat and Metricbeat shown on Kibana
+Kibana successfully receiving data for Filebeat module:
+
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/Kibanasys.png)
+
+Kibana system dashboard showing successful data activity:
+
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/Kibanasys1.png)
+
+Kibana successfully receiving data for Metricbeat module:
+
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/Kibanametric.png)
+
+Kibana metric data dashboard showing successful data activity:
+
+![image](https://github.com/Pakaday/OSU-Cybersecurity-Project-1/blob/main/Images/Kibanametric1.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
